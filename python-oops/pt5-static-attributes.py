@@ -22,3 +22,16 @@ student1.schoolName = 'Somani International School' # modified using object name
 print(student1.schoolName)
 print(Student.schoolName)
 
+# common use of Static Attribute are basically for counting the objects
+# class Student:
+#     count = 0   # static attribute
+
+#     def __init__(self, name):
+#         self.name = name
+#         Student.count += 1
+
+# s1 = Student("Kunal")
+# s2 = Student("Rahul")
+# s3 = Student("Amit")
+
+# print("Total Students:", Student.count)
